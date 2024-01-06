@@ -90,12 +90,16 @@ nav li>a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
 /* main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
 /* About Section Style*/
 
 .about {
@@ -103,7 +107,7 @@ main{
     border-radius: 10px;
     background: #FBEBE0;
     margin: 130px 0px;
-     
+
 }
 
 .section-title {
@@ -113,25 +117,65 @@ main{
     font-weight: 700;
 }
 
-.section-description{
+.section-description {
     text-align: center;
-    color:  #757575;
+    color: #757575;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
-}
-.about-info-container{
-
-
+    line-height: 30px;
+    /* 166.667% */
 }
 
-.about-info{
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.about-info {
+    text-align: center;
+}
+
+.info-title {}
+
+/* What i do section*/
+
+.what-i-do-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.kille {}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 28px; 175% */
 
 }
 
-.info-title{
-
-    
+.kill-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
 }
